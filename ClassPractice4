@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        CapsulationPractice capsule = new CapsulationPractice(); // CapsulationPracticeクラスのインスタンスを生成
+        capsule.setPrivateData(200); // privateDataの値をセット
+        System.out.println(capsule.getPrivateData()); // privateDataの値を出力
+    }
+}
+
+class CapsulationPractice {
+    private int privateData = 100;
+
+    public int getPrivateData() {
+        return this.privateData;
+    }
+
+    // setter
+    public void setPrivateData(int privateData) {
+        this.privateData = privateData;
+    }
+}
