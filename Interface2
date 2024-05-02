@@ -1,0 +1,8 @@
+// インタフェースの作成
+public interface Face {
+    
+     public String mouth();
+     public int eye(int number);
+     public void nose();
+}
+ 
